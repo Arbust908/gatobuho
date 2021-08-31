@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main-100: hsl(337, 81%, 94%);
+  --main-200: hsl(349, 69%, 79%);
+  --main-300: hsl(343, 63%, 59%);
+  --main-400: hsl(324, 38%, 52%);
+  --main-500: hsl(287, 25%, 46%);
+  --main-600: hsl(242, 22%, 44%);
+  --main-700: hsl(216, 31%, 34%);
+  --main-800: hsl(203, 30%, 26%);
+  --accent-light: hsl(172, 40%, 86%);
+  --accent: hsl(167, 55%, 47%);
+  --accent-dark: hsl(167, 24%, 40%);
+}
+.dark {
+  --main-100: hsl(203, 30%, 26%);
+  --main-200: hsl(216, 31%, 34%);
+  --main-300: hsl(242, 22%, 44%);
+  --main-400: hsl(287, 25%, 46%);
+  --main-500: hsl(324, 38%, 52%);
+  --main-600: hsl(343, 63%, 59%);
+  --main-700: hsl(349, 69%, 79%);
+  --main-800: hsl(337, 81%, 94%);
+  --accent-light: hsl(167, 24%, 40%);
+  --accent: hsl(167, 55%, 47%);
+  --accent-dark: hsl(172, 40%, 86%);
+}
