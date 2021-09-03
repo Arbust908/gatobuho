@@ -31,14 +31,14 @@
           <button
             type="button"
             class="
-              bg-white
+              bg-second-200
               rounded-md
               p-2
               inline-flex
               items-center
               justify-center
-              text-gray-400
-              hover:text-gray-500 hover:bg-gray-100
+              text-main-600
+              hover:text-main-400 hover:bg-second-300
               focus:outline-none
               focus:ring-2
               focus:ring-inset
@@ -96,8 +96,8 @@
               rounded-lg
               shadow-lg
               ring-1 ring-black ring-opacity-5
-              bg-white
-              divide-y-2 divide-gray-50
+              bg-second-200
+              divide-y-2 divide-accent-200
             "
           >
             <div class="pt-5 pb-6 px-5">
@@ -118,14 +118,14 @@
                   <button
                     type="button"
                     class="
-                      bg-white
+                      bg-second-200
                       rounded-md
                       p-2
                       inline-flex
                       items-center
                       justify-center
-                      text-gray-400
-                      hover:text-gray-500 hover:bg-gray-100
+                      text-second-800
+                      hover:text-second-100 hover:bg-second-300
                       focus:outline-none
                       focus:ring-2
                       focus:ring-inset
@@ -276,15 +276,15 @@
             <div class="py-6 px-5">
               <nav class="grid grid-cols-2 gap-4 text-center">
                 <router-link to="/" class="btn btn-none"> Home </router-link>
-                <router-link to="/precio" class="btn btn-none">
+                <!-- <router-link to="/precio" class="btn btn-none">
                   Precios
-                </router-link>
+                </router-link> -->
                 <router-link to="/contacto" class="btn btn-none">
                   Contacto
                 </router-link>
-                <router-link to="/contacto" class="btn btn-ghost">
+                <!-- <router-link to="/contacto" class="btn btn-ghost">
                   Ver Demos
-                </router-link>
+                </router-link> -->
                 <router-link to="/contacto" class="btn btn-main">
                   Contactanos
                 </router-link>
@@ -329,16 +329,19 @@
 </script>
 
 <style lang="scss" scoped>
+  header {
+    @apply sticky top-0 inset-x-0 z-20 bg-second-200 dark:bg-second-700;
+  }
   .btn {
-    @apply whitespace-nowrap px-4 py-2 rounded-md text-base transition duration-200;
+    @apply whitespace-nowrap px-3 py-1 rounded-md text-base transition duration-200;
   }
   .btn-none {
-    @apply font-normal text-main-700 hover:text-main-300;
+    @apply font-normal text-main-600 hover:text-second-700;
   }
   .btn-ghost {
     @apply bg-transparent text-main-300 font-bold hover:bg-main-100 hover:text-main-500 hover:shadow-sm;
   }
   .btn-main {
-    @apply bg-main-800 shadow-sm text-accent font-bold hover:bg-accent-light hover:text-main-300 hover:shadow-md col-span-full;
+    @apply bg-main-800 shadow-sm text-accent-500 font-bold hover:bg-accent-300 hover:text-main-300 hover:shadow-md col-span-full;
   }
 </style>

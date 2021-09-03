@@ -1,6 +1,6 @@
 <template>
   <div>
-    <MainNav class="main-nav" />
+    <MainNav />
     <main>
       <slot> Content </slot>
     </main>
@@ -11,7 +11,7 @@
 <script lang="ts">
   import { defineComponent } from 'vue';
   // import LogoLink from '@/components/LogoLink.vue';
-  import MainNav from '@/components/MainNav.vue';
+  import MainNav from '@/components/nav/MainNav.vue';
   import TheFooter from '@/components/TheFooter.vue';
 
   export default defineComponent({
@@ -25,9 +25,9 @@
 
 <style lang="scss" scoped>
   div {
-    @apply bg-blueGray-100;
+    @appl min-h-screen flex flex-col;
   }
-  .main-nav {
-    @apply sticky top-0 inset-x-0 z-20 backdrop-blur bg-white bg-opacity-75 border-b;
+  main {
+    @apply flex-1;
   }
 </style>

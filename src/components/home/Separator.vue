@@ -1,6 +1,6 @@
 <template>
   <div
-    class="h-32 w-full bg-gradient-to-b from-accent-light to-transparent"
+    class="h-32 w-full bg-gradient-to-b from-accent-300 to-transparent"
   ></div>
 </template>
 

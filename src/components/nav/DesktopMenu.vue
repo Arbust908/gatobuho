@@ -1,9 +1,9 @@
 <template>
   <nav class="hidden md:flex items-center space-x-6">
     <router-link to="/" class="btn btn-none"> Home </router-link>
-    <router-link to="/precio" class="btn btn-none"> Precios </router-link>
+    <!-- <router-link to="/precio" class="btn btn-none"> Precios </router-link> -->
     <router-link to="/contacto" class="btn btn-none"> Contacto </router-link>
-    <router-link to="/demos" class="btn btn-ghost"> Ver Demos </router-link>
+    <!-- <router-link to="/demos" class="btn btn-ghost"> Ver Demos </router-link> -->
     <router-link to="/contacto" class="btn btn-main"> Contactanos </router-link>
   </nav>
 </template>
@@ -28,6 +28,6 @@
     @apply bg-transparent text-main-300 font-bold hover:bg-main-100 hover:text-main-500 hover:shadow-sm;
   }
   .btn-main {
-    @apply bg-main-800 shadow-sm text-accent font-bold hover:bg-accent-light hover:text-main-300 hover:shadow-md;
+    @apply bg-main-800 shadow-sm text-accent-500 font-bold hover:bg-accent-300 hover:text-main-300 hover:shadow-md;
   }
 </style>

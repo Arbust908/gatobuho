@@ -49,26 +49,17 @@
   </svg>
 </template>
 
-<script lang="ts">
-  import { defineComponent } from 'vue';
-  export default defineComponent({
-    setup() {
-      return {};
-    },
-  });
-</script>
-
 <style lang="scss" scoped>
   .cls-1 {
-    @apply fill-current text-main-800 dark:text-accent-light;
+    @apply fill-current text-second-800 dark:text-accent-100;
   }
   .cls-2 {
     fill: none;
   }
   .cls-3 {
-    @apply fill-current text-accent dark:text-main-700;
+    @apply fill-current text-accent-500 dark:bg-second-700;
   }
   .cls-4 {
-    @apply fill-current text-main-300;
+    @apply fill-current text-main-500;
   }
 </style>

@@ -15,25 +15,76 @@ module.exports = {
       colors: {
         ...colors,
         main: {
-          100: 'var(--main-100)',
-          200: 'var(--main-200)',
-          300: 'var(--main-300)',
-          400: 'var(--main-400)',
-          500: 'var(--main-500)',
-          600: 'var(--main-600)',
-          700: 'var(--main-700)',
-          800: 'var(--main-800)',
-          900: 'var(--main-900)',
+          100: '#f7b0c4',
+          200: '#f898b3',
+          300: '#f681a2',
+          400: '#ee6b90',
+          500: '#de577d',
+          600: '#c4466a',
+          700: '#a33655',
+          800: '#7c2840',
+          900: '#501b2a',
+        },
+        second: {
+          100: '#e7e6f5',
+          200: '#ceceea',
+          300: '#b6b5dc',
+          400: '#9d9cca',
+          500: '#8483b4',
+          600: '#6a6997',
+          700: '#504f76',
+          800: '#353551',
+          900: '#1b1a29',
         },
         accent: {
-          light: 'var(--accent-light)',
-          DEFAULT: 'var(--accent)',
-          dark: 'var(--accent-dark)',
+          100: '#dcfffb',
+          200: '#bafff5',
+          300: '#9affec',
+          400: '#7cf8dd',
+          500: '#61e4c8',
+          600: '#49c5aa',
+          700: '#349c86',
+          800: '#216c5c',
+          900: '#10372f',
         },
       },
       fontFamily: {
         sans: ['Space Grotesk', ...defaultTheme.fontFamily.sans],
         serif: ['DM Serif Text', ...defaultTheme.fontFamily.serif],
+      },
+      transitionTimingFunction: {
+        main: 'cubic-bezier(.17,.67,.65,1.35)',
+      },
+      animation: {
+        boing: 'boing 0.5s ease-in-out',
+        'boing-light': 'boing-light 0.3s ease-in-out',
+      },
+      keyframes: {
+        boing: {
+          '0%': {
+            transform: 'scale(1)',
+          },
+          '75%': {
+            transform: 'scale(1.1)',
+          },
+          '90%': {
+            transform: 'scale(0.9)',
+          },
+          '100%': {
+            transform: 'scale(1)',
+          },
+        },
+        'boing-light': {
+          '0%': {
+            transform: 'scale(1)',
+          },
+          '75%': {
+            transform: 'scale(1.1)',
+          },
+          '100%': {
+            transform: 'scale(1)',
+          },
+        },
       },
     },
   },

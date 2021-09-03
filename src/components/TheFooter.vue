@@ -1,5 +1,5 @@
 <template>
-  <footer class="p-6 space-y-2">
+  <footer class="p-6 space-y-2 bg-second-300 text-main-600">
     <!-- <Socials /> -->
     <!-- <SiteMap /> -->
     <Copyrights />

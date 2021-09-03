@@ -1,9 +1,5 @@
 <template>
-  <div class="relative pt-16 pb-32 overflow-hidden">
-    <div
-      aria-hidden="true"
-      class="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-blueGray-100"
-    ></div>
+  <div class="demos">
     <div class="relative">
       <div
         class="
@@ -36,13 +32,13 @@
                   items-center
                   justify-center
                   bg-gradient-to-tr
-                  from-main-300
-                  to-main-500
+                  from-accent-300
+                  to-accent-500
                 "
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6 text-white"
+                  class="h-6 w-6 text-second-800"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -62,13 +58,13 @@
                   text-3xl
                   font-extrabold
                   tracking-tight
-                  text-main-400
+                  text-second-600
                   font-serif
                 "
               >
                 Sitios administrables a medida
               </h2>
-              <p class="mt-4 text-lg text-main-700">
+              <p class="mt-4 text-lg text-second-400">
                 Para minimizar la dependencia de terceros, nuestros sitios
                 pueden tener un panel de administracion con todas las
                 funcionalidades que necesites. Subida de imagenes, edicion de
@@ -80,18 +76,20 @@
                   class="
                     inline-flex
                     bg-gradient-to-tr
-                    from-main-400
-                    to-main-700
+                    from-accent-300
+                    to-accent-500
                     px-4
                     py-2
                     text-base
                     font-medium
                     rounded-md
                     shadow-sm
-                    text-white
+                    text-second-800
                     transition
                     duration-100
-                    hover:from-main-700 hover:to-main-400
+                    hover:from-accent-500
+                    hover:to-accent-300
+                    hover:animate-boing-light
                   "
                 >
                   Ver Mas
@@ -125,11 +123,12 @@
         <div class="mt-12 sm:mt-16 lg:mt-0">
           <div
             class="
+              relative
               pl-4
               -mr-48
               sm:pl-6
               md:-mr-16
-              lg:px-0 lg:m-0 lg:relative lg:h-full
+              lg:px-0 lg:m-0 lg:h-full
             "
           >
             <img
@@ -137,8 +136,21 @@
                 w-full
                 rounded-xl
                 shadow-xl
+                opacity-75
+                absolute
+                blur-md
+                lg:left-8 lg:h-full lg:w-auto lg:max-w-none
+              "
+              src="@/assets/imgs/RichCova/PanelHome.png"
+              alt="Inbox user interface"
+            />
+            <img
+              class="
+                relative
+                w-full
+                rounded-xl
                 ring-1 ring-black ring-opacity-5
-                lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none
+                lg:absolute lg:left-8 lg:h-full lg:w-auto lg:max-w-none
               "
               src="@/assets/imgs/RichCova/PanelHome.png"
               alt="Inbox user interface"
@@ -215,13 +227,8 @@
   </div>
 </template>
 
-<script lang="ts">
-  import { defineComponent } from 'vue';
-  export default defineComponent({
-    setup() {
-      return {};
-    },
-  });
-</script>
-
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+  .demos {
+    @apply pt-16 pb-32 overflow-hidden bg-second-100;
+  }
+</style>

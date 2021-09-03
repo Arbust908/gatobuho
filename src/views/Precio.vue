@@ -28,7 +28,7 @@
               <span class="block lg:inline text-main-300"
                 >Precios simples,
               </span>
-              <span class="block lg:inline text-accent">Flexibles.</span>
+              <span class="block lg:inline text-accent-500">Flexibles.</span>
             </h1>
             <p class="mt-4 text-xl text-main-200">
               Elegi un plan o armalo a tu medida con las funcionalidades que vos
@@ -110,7 +110,7 @@
                         bg-white
                         font-bold
                         text-main-300
-                        hover:bg-accent-light
+                        hover:bg-accent-300
                         mt-6
                         w-full
                         inline-block
@@ -132,7 +132,7 @@
                   role="list"
                   class="
                     border-indigo-500
-                    divide-accent divide-opacity-75
+                    divide-accent-500 divide-opacity-75
                     mt-7
                     border-t
                     divide-y
@@ -141,7 +141,7 @@
                 >
                   <li class="py-3 flex items-center">
                     <svg
-                      class="text-accent w-5 h-5 flex-shrink-0"
+                      class="text-accent-500 w-5 h-5 flex-shrink-0"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
@@ -160,7 +160,7 @@
 
                   <li class="py-3 flex items-center">
                     <svg
-                      class="text-accent w-5 h-5 flex-shrink-0"
+                      class="text-accent-500 w-5 h-5 flex-shrink-0"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
@@ -179,7 +179,7 @@
 
                   <li class="py-3 flex items-center">
                     <svg
-                      class="text-accent w-5 h-5 flex-shrink-0"
+                      class="text-accent-500 w-5 h-5 flex-shrink-0"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class="my-2 text-base text-gray-400 text-right">
+    <p class="my-2 text-base text-right">
       &copy; 2020 Gatobuho, Todos los derechos reservados.
     </p>
   </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gradient-to-b from-main-300 to-main-500">
+  <div class="bg-gradient-to-br from-main-300 to-main-700">
     <div
       class="
         max-w-4xl

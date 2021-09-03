@@ -15,7 +15,7 @@
           text-4xl
           font-extrabold
           tracking-tight
-          text-main-800
+          text-second-800
           sm:text-4xl
           font-serif
         "
@@ -25,8 +25,8 @@
           class="
             block
             bg-gradient-to-r
-            from-main-500
-            to-main-300
+            from-second-500
+            to-main-500
             bg-clip-text
             text-transparent
             pb-1
@@ -48,7 +48,9 @@
             py-1
             px-1
             text-base text-main-800
-            placeholder-accent
+            focus-within:ring-2
+            focus-within:ring-main-500
+            focus-within:border-main-500
           "
         >
           <label for="email-address" class="sr-only">Tu Email</label>
@@ -63,22 +65,13 @@
               bg-transparent
               border-none
               rounded-md
-              focus:outline-none
-              focus:ring-2
-              focus:ring-main-500
-              focus:border-main-500
-              focus:placeholder-gray-400
+              focus:outline-none focus:ring-0
+              placeholder-main-600
               py-1
             "
             placeholder="Tu email"
           />
-          <button
-            class="
-              rounded-md
-              p-2
-              focus:outline-none focus:ring-2 focus:ring-main-500
-            "
-          >
+          <button class="rounded-md p-2 focus:outline-none focus:bg-main-100">
             <span
               type="submit"
               class="
@@ -86,20 +79,20 @@
                 flex
                 items-center
                 justify-center
-                bg-main-300
+                bg-main-600
                 px-4
                 py-1
                 transition
                 duration-150
                 transform
                 ease-out
-                hover:scale-110
+                hover:animate-boing-light
                 text-base
                 font-medium
                 rounded-md
                 shadow-sm
-                text-white
-                hover:bg-main-400
+                text-main-100
+                hover:bg-main-800
               "
             >
               Hablemos!
