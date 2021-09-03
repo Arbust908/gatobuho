@@ -71,8 +71,8 @@
                 textos, links a redes y mas!
               </p>
               <div class="mt-6">
-                <router-link
-                  to="/precios"
+                <a
+                  href="https://richcova.com/"
                   class="
                     inline-flex
                     bg-gradient-to-tr
@@ -93,7 +93,7 @@
                   "
                 >
                   Ver Mas
-                </router-link>
+                </a>
               </div>
             </div>
           </div>
