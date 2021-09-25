@@ -66,9 +66,9 @@
               </h2>
               <p class="mt-4 text-lg text-second-400">
                 Para minimizar la dependencia de terceros, nuestros sitios
-                pueden tener un panel de administracion con todas las
-                funcionalidades que necesites. Subida de imagenes, edicion de
-                textos, links a redes y mas!
+                pueden tener un panel de administración con todas las
+                funcionalidades que necesites. Subida de imágenes, edición de
+                textos, links a redes y más!
               </p>
               <div class="mt-6">
                 <a
@@ -92,7 +92,7 @@
                     hover:animate-boing-light
                   "
                 >
-                  Ver Mas
+                  Ver Más
                 </a>
               </div>
             </div>

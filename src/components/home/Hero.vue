@@ -2,11 +2,11 @@
   <div class="hero">
     <h1>
       <span class="main">Sitios y Apps</span>
-      <span class="second">de fantasia a medida</span>
+      <span class="second">de fantasía a medida</span>
     </h1>
     <p>
-      Sitios full responsive, vistosos y fáciles de usar. Estaticos o
-      administrables. Lijeros y con las tecnologias mas nuevas. De fantasia!
+      Sitios full responsive, vistosos y fáciles de usar. Estáticos o
+      administrables. Ligeros y con las tecnologías mas nuevas. De fantasía!
     </p>
     <div class="btn-box">
       <!-- <router-link to="/demos" class="btn second"> Ver Demos </router-link> -->

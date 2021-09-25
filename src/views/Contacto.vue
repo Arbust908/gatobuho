@@ -35,7 +35,7 @@
             text-main-500 text-center
           "
         >
-          Si crees que podemos ser de ayuda, escríbenos. Nuestro equipo esta
+          Si creés que podemos ser de ayuda, escribanos. Nuestro equipo está
           esperando escuchar tus ideas y poder elevar tu marca.
         </p>
       </div>
@@ -75,9 +75,9 @@
               Queremos ayudarte!
             </h2>
             <p class="mt-4 text-lg text-main-600 sm:mt-3">
-              Amamos lo que hacemos y queremos ayudarte a hacer lo que vos amas.
+              Amamos lo que hacemos y queremos ayudarte a hacer lo que vos amás.
               Creemos que tenemos mucho para dar y aportar a tu idea. Contanos
-              un poco mas y te ayudaremos a hacerla realidad.
+              un poco más y te ayudaremos a hacerla realidad.
             </p>
             <form
               action="#"
@@ -354,7 +354,7 @@
             hover:animate-boing
           "
         >
-          <span>Hagamos Codigo</span>
+          <span>Hagamos Código</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-6 w-6"
@@ -375,12 +375,14 @@
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
+  import { useTitle } from '@vueuse/core';
   import { ref } from 'vue';
   const left = ref(500);
   const recountMax = (event) => {
     left.value = 500 - event.target.value.length;
   };
+  useTitle('Contacto | Gatobuho <> Desarrollo Web');
 </script>
 
 <style lang="scss" scoped>

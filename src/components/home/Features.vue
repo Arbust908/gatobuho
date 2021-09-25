@@ -14,8 +14,8 @@
         Funcionalidades a tu medida
       </h2>
       <p class="mt-4 max-w-3xl text-lg text-main-100">
-        Vos elegis lo que necesitas y nosotros armamos el plan a tu medida. La
-        web que vos queres con las funcionalidades que necesitas.
+        Vos elegís lo que necesitás y nosotros armamos el plan a tu medida. La
+        web que vos querés con las funcionalidades que necesitás.
       </p>
       <div
         class="
@@ -60,7 +60,7 @@
             <h3 class="text-lg font-medium text-white">Cuentas de Mail</h3>
             <p class="mt-2 text-base text-main-100">
               Las cuentas de mail que necesites para tu negocio. Para poder
-              responder de la manera mas eficiente a los pedidos de tus
+              responder de la manera más eficiente a los pedidos de tus
               clientes.
             </p>
           </div>
@@ -97,10 +97,10 @@
           </div>
           <div class="mt-6">
             <h3 class="text-lg font-medium text-white">
-              Panel de administracion
+              Panel de administración
             </h3>
             <p class="mt-2 text-base text-main-100">
-              Administra tu contenido sin necesidad de conocer el codigo ni
+              Administra tu contenido sin necesidad de conocer el código ni
               llamar a nadie. Las perillas las armamos para que puedas
               administrar tu web.
             </p>
@@ -138,11 +138,11 @@
           </div>
           <div class="mt-6">
             <h3 class="text-lg font-medium text-white">
-              Seccion de comentarios
+              Secciópn de comentarios
             </h3>
             <p class="mt-2 text-base text-main-100">
-              No te pierdas las conversaciones que generas con tus clientes.
-              Escucha el feedback directo de los que mas te gustan.
+              No te pierdas las conversaciones que generás con tus clientes.
+              Escucha el feedback directo de los que más te gustan.
             </p>
           </div>
         </div>
@@ -217,10 +217,10 @@
             </span>
           </div>
           <div class="mt-6">
-            <h3 class="text-lg font-medium text-white">Metricas internas</h3>
+            <h3 class="text-lg font-medium text-white">Métricas internas</h3>
             <p class="mt-2 text-base text-main-100">
-              Conoce las estadisticas de tu negocio. Los numeros que te ayudan a
-              saber como esta tu negocio.
+              Conoce las estadísticas de tu negocio. Los números que te ayudan a
+              saber cómo esta tu negocio.
             </p>
           </div>
         </div>
@@ -255,9 +255,9 @@
             </span>
           </div>
           <div class="mt-6">
-            <h3 class="text-lg font-medium text-white">Webs Rapidas</h3>
+            <h3 class="text-lg font-medium text-white">Webs Rápidas</h3>
             <p class="mt-2 text-base text-main-100">
-              Seguimos los estandares de Google para crear una web rapida y que
+              Seguimos los estándares de Google para crear una web rápida y que
               te va a posicionar en los primeros lugares.
             </p>
           </div>
@@ -295,9 +295,9 @@
           <div class="mt-6">
             <h3 class="text-lg font-medium text-white">Multilenguaje</h3>
             <p class="mt-2 text-base text-main-100">
-              Tenes clientes en varios idiomas? No te preocupes, podemos
-              ayudarte y armar un sitema de lenguajes para que cada uno lea en
-              su lenguaje.
+              Ténes clientes en varios idiomas? No te preocupes, podemos
+              ayudarte y armar un sistema de lenguajes para que cada uno lea en
+              su idioma.
             </p>
           </div>
         </div>
@@ -334,8 +334,8 @@
           <div class="mt-6">
             <h3 class="text-lg font-medium text-white">Pagos</h3>
             <p class="mt-2 text-base text-main-100">
-              Necesitas cobrar a tus clientes? Podemos ayudarte con integracion
-              de marcado pago, pagos en linea y mucho mas.
+              Necesitás cobrar a tus clientes? Podemos ayudarte con integración
+              de marcado pago, pagos en línea y mucho más.
             </p>
           </div>
         </div>
